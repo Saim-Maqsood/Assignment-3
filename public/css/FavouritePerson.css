@@ -1,0 +1,62 @@
+/* Second image */
+.table-image{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR ANCHOR TAGS */
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+/* LOGO SETTING */
+.Logo-img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.Menu-icons{
+    height: 30px;
+    width: 30px;
+}
+.Footer-p{
+    color: black;
+}
+/* SOCIAL MEDIA PNG SETTING */
+.social{
+    width: 30px;
+    height: 30px;
+}
+/* THE TEXT IN THE FOOTER */
+#Footer-text{
+    height: 50vh;
+}
+td{
+    padding: 4px;
+}
+table{
+    margin-top: 20px;
+}
+@media screen and (max-width:360px){
+    a{
+        padding: 2px;
+    }
+    table{
+        width: 100%;
+    }
+}
+@media screen and (min-width:361px) and (max-width:1024px){
+    a{
+        padding: 20px;
+    }
+    table{
+        width: 100%;
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="Images/support.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/contact_info.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <img src="/img/fav.ico" alt="" class="Logo-img">
+    <%- include("partials/navbar.ejs")%>
+        <div class="background">
+            <form>
+                <div class="input">
+                    <input type="text" id="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="Email" required>
+                    <label for="Email">Your Email</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="phone" required>
+                    <label for="phone">Your phone</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="age" required>
+                    <label for="age">age</label>
+                </div>
+                <div class="input">
+                    <textarea name="" id="" rows="8"required placeholder="Detail"></textarea>
+                </div>
+                <div class="input">
+                    <button type="submit">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+</body>
+</html>

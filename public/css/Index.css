@@ -1,0 +1,56 @@
+/* UNIVERSAL SETTING */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR ANCHOR TAGS */
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+/* LOGO SETTING */
+.Logo-img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+/* NAVIGATION ICONS */
+/* PERSONAL IMAGE */
+#my-image{
+    height: 100%;
+    width:  100%;
+}
+#img{
+    width: 400px;
+    border-radius: 40px;
+}
+/* SOCIAL MEDIA PNG SETTING */
+.social{
+    width: 30px;
+    height: 30px;
+}
+/* navigation bar table setting */
+td{
+    padding: 4px;
+    
+}
+.table-image{
+    width: 100%;
+    height: 100%;
+}
+table{
+    margin-top: 20px;
+}
+@media screen and (max-width:360px){
+    a{
+        padding: 2px;
+    }
+}
+@media screen and (min-width:361px) and (max-width:1024px){
+    a{
+        padding: 20px;
+    }
+}

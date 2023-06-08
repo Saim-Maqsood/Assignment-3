@@ -1,0 +1,33 @@
+/* NAVBAR ANCHOR TAGS */
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+/* LOGO SETTING */
+.Logo-img{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+/* NAVIGATION ICONS */
+.Menu-icons{
+    height: 30px;
+    width: 30px;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width:360px){
+    a{
+        padding: 2px;
+    }
+}
+@media screen and (min-width:361px) and (max-width:1024px){
+    a{
+        padding: 20px;
+    }
+}
